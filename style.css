@@ -66,15 +66,72 @@ div > p {
 }
 .home {
     display: flex;
+    justify-content: center;
 }
 .home-content {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    justify-content: center;
+    margin-top: 20px;
 }
-.square {
-    height: 50px;
-    width: 50px;
-    background-color: #555;
+.flex-container {
+    display: flex;
+    justify-content: center;
   }
+  
+.flex-container > div {
+    padding: 50px;
+    border: 2px solid;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    color: #3882F6;
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.text > div {
+    padding: 50px;
+    border: 2px;
+    width: 130px;
+    height: 10px;
+    margin: 10px;
+    line-height: 15px;
+    font-size: 15px;
+ }
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    background-color: #E5E7EB;
+    
+}
+.space {
+    height: 70px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    text-align: center;
+  }
+  .footer1 {
+    background-color: #f1f1f1;
+    width: 1000px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  
