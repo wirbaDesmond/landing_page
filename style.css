@@ -14,7 +14,7 @@
     font-size: 24px;
     color: #F9FAF8;
 }
-.div a {
+.header-content {
     display: flex;
     align-content: flex-start;
     font-size: 18px;
@@ -139,4 +139,203 @@ div > p {
     align-items: center;
     height: 50px;
    background-color: #1F2937;
+}
+@media  screen and (min-width: 768px) and ( max-width: 991.98px) {
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+       background-color: #1F2937;
+       gap: 350px;
+   }
+   .header-logo {
+       font-size: 18px;
+       color: #F9FAF8;
+   }
+   .header-content {
+       display: flex;
+       align-content: flex-start;
+       font-size: 18px;
+       color: #E5E7EB;
+   }
+   .Hero {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    height: 250px;
+}
+.Hleft {
+    margin-left: 111px;
+}
+div > h2 {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 32px;
+}
+div > p {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+.button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 4px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 2px 0px;
+    cursor: pointer;
+}
+.Hright {
+    display: flex;
+    align-items: center;
+    margin-left: 240px;
+    width: 100px;
+    height: 100px;  
+    padding: 50px;
+    border: 1px solid;
+    background-color: #5e5f61;
+}
+}
+@media  screen and ( max-width: 767.98px) {
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+       background-color: #1F2937;
+       gap: 250px;
+   }
+   .header-logo {
+       margin-left: 50px;
+       font-size: 14px;
+       color: #F9FAF8;
+   }
+   .header-content {
+       display: flex;
+       align-content: flex-start;
+       font-size: 14px;
+       color: #E5E7EB;
+   }
+   .Hero {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    height: 450px;
+}
+.Hleft {
+    margin-left: 99px;
+}
+div > h2 {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 32px;
+}
+div > p {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+.button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 4px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 2px 0px;
+    cursor: pointer;
+}
+.Hright {
+    display: flex;
+    align-items: left;
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;  
+    padding: 50px;
+    border: 1px solid;
+    background-color: #5e5f61;
+}
+.home {
+    display: flex;
+    justify-content: center;
+}
+.home-content {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 20px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.flex-container > div {
+    padding: 50px;
+    border: 2px solid;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    color: #3882F6;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.text > div {
+    padding: 50px;
+    border: 2px;
+    width: 130px;
+    height: 10px;
+    margin: 10px;
+    line-height: 15px;
+    font-size: 15px;
+ }
+ .quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 26px;
+    background-color: #E5E7EB;
+    
+}
+.space {
+    height: 70px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+  }
+  .footer1 {
+    background-color: #1028b1;
+    height: 150px;
+    width: 1000px;
+    margin: 10px;
+    line-height: 25px;
+    font-size: 20px;
+  }
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+   background-color: #1F2937;
+}
 }
